@@ -81,7 +81,7 @@ export default function LoginPage() {
                   required
                 />
                 <label htmlFor="employee-type" className="ml-2 block text-sm text-gray-400">
-                  I'm an Employee
+                  I am an Employee
                 </label>
               </div>
               <div className="flex items-center">
@@ -95,7 +95,7 @@ export default function LoginPage() {
                   className="h-4 w-4 text-[#ff2e85] focus:ring-[#ff2e85] border-white/10"
                 />
                 <label htmlFor="client-type" className="ml-2 block text-sm text-gray-400">
-                  I'm a Client
+                  I am a Client
                 </label>
               </div>
             </div>
@@ -132,7 +132,7 @@ export default function LoginPage() {
           
           <div className="mt-6 text-center">
             <p className="text-sm text-gray-400">
-              Don't have an account?{' '}
+              Do not have an account?{' '}
               <Link href="/register" className="text-[#ff2e85] hover:text-[#ff2e85]/80 font-medium">
                 Register now
               </Link>
