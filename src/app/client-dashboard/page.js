@@ -137,7 +137,7 @@ export default function ClientDashboard() {
               </table>
             </div>
           ) : (
-            <p className="text-gray-400 text-center py-8">You haven't posted any jobs yet.</p>
+            <p className="text-gray-400 text-center py-8">You have not posted any jobs yet.</p>
           )}
         </div>
       </div>
