@@ -93,14 +93,14 @@ export default function RegisterPage() {
                 onClick={() => selectUserType('employee')}
                 className="w-full flex items-center justify-center px-4 py-4 border border-transparent rounded-lg shadow-sm text-white bg-[#ff2e85] hover:bg-[#ff2e85]/80 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#ff2e85] transition-colors"
               >
-                <span className="text-lg font-medium">I'm looking for a job</span>
+                <span className="text-lg font-medium">I am looking for a job</span>
               </button>
               
               <button
                 onClick={() => selectUserType('client')}
                 className="w-full flex items-center justify-center px-4 py-4 border border-white/10 rounded-lg shadow-sm text-white bg-white/10 hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#ff2e85] transition-colors"
               >
-                <span className="text-lg font-medium">I'm hiring</span>
+                <span className="text-lg font-medium">I am hiring</span>
               </button>
             </div>
             
